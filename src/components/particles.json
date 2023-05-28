@@ -1,0 +1,75 @@
+{
+  "background": {
+    "color": "transparent"
+  },
+  "interactivity": {
+    "events": {
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onHover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "resize": true
+    },
+    "modes": {
+      "push": {
+        "quantity": 1
+      },
+      "grab": {
+        "distance": 200,
+        "duration": 0.4
+      }
+    }
+  },
+  "particles": {
+    "color": {
+      "value": "#ffffff"
+    },
+    "links": {
+      "color": "#ffffff",
+      "distance": 200,
+      "enable": true,
+      "opacity": 0.5,
+      "width": 1
+    },
+    "collisions": {
+      "enable": true
+    },
+    "move": {
+      "direction": "none",
+      "enable": true,
+      "outModes": {
+        "default": "bounce"
+      },
+      "random": true,
+      "speed": 2, 
+      "straight": false
+    },
+    "number": {
+      "density": {
+        "enable": true
+      },
+      "value": 100
+    },
+    "opacity": {
+      "value": 0.5
+    },
+    "shape": {
+      "type": "char", 
+      "character": {
+        "value": ["0.08", "0.03", "1.43", "2.78", "5.89"], 
+        "fill": true,
+        "font": "Segoe UI",
+        "style": "light",
+        "weight": "200" 
+      }
+    },
+    "size": {
+      "random": true,
+      "value": 5
+    }
+  }
+}

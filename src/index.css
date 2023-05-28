@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --border-radius: 0 0 2rem 2rem; /* default value */
+}
+
+@media (min-width: 640px) { /* equivalent to Tailwind's 'md' breakpoint */
+  :root {
+    --border-radius: 0 0 3rem 3rem;
+  }
+}
+
+@media (min-width: 768px) { /* equivalent to Tailwind's 'lg' breakpoint */
+  :root {
+    --border-radius: 0 0 8rem 8rem;
+  }
+}
+
+.HeaderSection {
+  border-radius: var(--border-radius);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+p {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #F7F9FD;
+}
+
+container{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.underline-animation {
+  position: relative;
+  z-index: 4;
+  display: inline-block;  /* Apply inline-block here */
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 4px;
+  background: #48E348;  /* Corresponds to green-500 in Tailwind */
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s;
+  z-index: -1;  /* This places the line below the text, which is why we need to use z-index to place it above the background */
+}
+
+.underline-animation:hover::after {
+  width: 100%;
+  transform: skew(-20deg);  /* This creates the angled effect */
+}
+.HeaderSection {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo{
+  width: 125px;
+}
+.mainNav{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.popHead{
+  display: none;
+}
+.bannerSec {
+  position: relative;
+  z-index: -2;
+}
+
+
+@media (max-width: 999px) { 
+  .fooSect{
+    margin-left: 0 !important;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+.navSet{
+  z-index: 999;
+}

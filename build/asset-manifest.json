@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fdef7dc3.css",
+    "main.js": "/static/js/main.0eebad07.js",
+    "static/js/787.2db1ab7e.chunk.js": "/static/js/787.2db1ab7e.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.532fdca50b4e5f974111eaf70c36080c.svg",
+    "static/media/header-bg.png": "/static/media/header-bg.d6016d6e7b47c604bba5.png",
+    "static/media/Rectangle70.jpg": "/static/media/Rectangle70.03725814f6bf18e8882e.jpg",
+    "static/media/Rectangle72.jpg": "/static/media/Rectangle72.ea7cb782e7ccd4bca7f9.jpg",
+    "static/media/Square83.jpg": "/static/media/Square83.876b537c65f24014230a.jpg",
+    "static/media/weaviate-home-diagram-dark.png": "/static/media/weaviate-home-diagram-dark.4b70f7e1c0a092023682.png",
+    "static/media/waves.png": "/static/media/waves.f4fde64880125bb16cee.png",
+    "static/media/Square71.jpg": "/static/media/Square71.a894b0fe279221de8179.jpg",
+    "index.html": "/index.html",
+    "main.fdef7dc3.css.map": "/static/css/main.fdef7dc3.css.map",
+    "main.0eebad07.js.map": "/static/js/main.0eebad07.js.map",
+    "787.2db1ab7e.chunk.js.map": "/static/js/787.2db1ab7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdef7dc3.css",
+    "static/js/main.0eebad07.js"
+  ]
+}
